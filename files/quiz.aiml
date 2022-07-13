@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml version="2.0">
+	
+	<category>
+      <pattern>quiz</pattern>
+      <template>Great! I'm going to ask you a few basic questions., please answer the questions with an answer that best fit your personalty.
+          <button>
+              <text>Starting Quiz!</text>
+              <postback>startQuiz</postback>
+          </button>
+      </template>
+    </category>
+    
+	<category>
+        <pattern>startQuiz</pattern>
+        <template><delay>3</delay> Are you an artistic person?
+            <button>
+                <text>Yes. I am a creative persoin.</text>
+                <postback>yesArtistic</postback>
+            </button>
+            <button>
+                <text>No. I'm more of a logical thinker.</text>
+                <postback>noArtistic</postback>
+            </button>
+        </template>
+    </category>
+    
+    <category>
+        <pattern>yesArtistic</pattern>
+        <template>
+            <delay>2</delay> Are you good at solving problems?
+            <button>
+                <text>Yes. I'm a great problem slover</text>
+                <postback>yesArtisticyesSolveProblems</postback>
+            </button>
+            <button>
+                <text>No Not really. </text>
+                <postback>yesArtisticnoSolveProblems</postback>
+            </button>
+        </template>
+    </category>
+    
+    <category>
+        <pattern>noArtistic</pattern>
+        <template>
+            <delay>2</delay>Are you good at solving problems ?
+            <button>
+                <text>Yes</text>
+                <postback>noArtisticyesSolveProblems</postback>
+            </button>
+            <button>
+                <text>No</text>
+                <postback>noArtisticnoSolveProblems</postback>
+            </button>
+        </template>
+    </category>
+    
+    <category>
+        <pattern>yesArtisticyesSolveProblems</pattern>
+        <template>
+             <delay>2</delay>Are you good at talking to people?
+            <button>
+                <text>Yes. I'm an extrovert.</text>
+                <postback>sOFTDEV</postback>
+            </button>
+            <button>
+                  <text>No. I'm an introvert.</text>
+                <postback>dATAADM</postback>
+            </button>
+        </template>
+    </category>
+    
+    <category>
+        <pattern>yesArtisticnoSolveProblems</pattern>
+        <template>
+            <delay>2</delay>Are you good at talking to people?
+            <button>
+                <text>Yes. I'm an extrovert.</text>
+                <postback>COMPInfoRESEARCHSCIENTIST</postback>
+            </button>
+            <button>
+                <text>No. I'm an introvert.</text>
+                <postback>webDeveloper</postback>
+            </button>
+        </template>
+    </category>
+    
+    <category>
+        <pattern>noArtisticyesSolveProblems</pattern>
+        <template>
+            <delay>2</delay>Are you good at talking to people?
+            <button>
+                <text>Yes. I'm an extrovert.</text>
+                <postback>iNFOSECUANALYST</postback>
+            </button>
+            <button>
+                <text>No. I'm an introvert.</text>
+                <postback>COMPNETARCH</postback>
+            </button>
+        </template>
+    </category>
+    
+    <category>
+        <pattern>noArtisticnoSolveProblems</pattern>
+        <template>
+            <delay>2</delay>Are you good at talking to people?
+            <button>
+                <text>Yes. I'm an extrovert.</text>
+                <postback>webDeveloper</postback>
+            </button>
+            <button>
+                <text>No. I'm an introvert.</text>
+                <postback>noToALlQs</postback>
+            </button>
+        </template>
+    </category>
+    
+</aiml>

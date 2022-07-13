@@ -1,0 +1,296 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml version="2.0">
+	<category>
+      <pattern>jobs</pattern>
+      <template>Which job would you like to learn more about?
+        <button>
+          <text>Software Developer</text>
+          <postback>softDeve</postback>
+        </button>
+        <button>
+          <text>Computer and Information Research Scientists</text>
+          <postback>COMPInfoREsearch</postback>
+        </button>
+        <button>
+          <text>DataBase Administrator</text>
+          <postback>dataAdmin</postback>
+        </button>
+        <button>
+          <text>Computer Network Architect</text>
+          <postback>COMPNET</postback>
+        </button>
+        <button>
+          <text>Information Security Analyst</text>
+          <postback>INFOSECU</postback>
+        </button>
+        <button>
+          <text>Web Developer</text>
+          <postback>webDev</postback>
+        </button>
+      </template>
+    </category>
+    
+    <category>
+        <pattern>softDeve</pattern>
+        <template>
+            Software developers create and maintain software programs, allowing users to do certain tasks on a computer. 
+            Software developers must design, install, test, and maintain the software.
+            <image>https://www.bing.com/images/blob?bcid=Tt3yVXyM7QQEEA</image>
+            <delay>1</delay>
+            <link>
+                <text> Click here for more on Software developers.</text>
+                <url>https://www.bls.gov/ooh/computer-and-information-technology/software-developers.htm#tab-1</url>
+            </link>
+            <delay>1</delay>
+            <srai>JOBANDQUIZ</srai>
+        </template>
+    </category>
+    
+    <category>
+        <pattern>SOFTDEV</pattern>
+        <template>
+            <delay>1</delay>You might want to look into Software Development!
+            Software developers create and maintain software programs, allowing users to do certain tasks on a computer. 
+            Software developers must design, install, test, and maintain the software.
+            <delay>1</delay>
+            Software developers Duties:
+            <ol>
+                <li>Analyze users’ needs and then design and develop software to meet those needs.</li>
+                <li>Recommend software upgrades for customers’ existing programs and systems.</li>
+                <li>Design each piece of an application or system and plan how the pieces will work together.</li>
+                <li>Create a variety of models and diagrams showing programmers the software code needed for an application.</li>
+                <li> Ensure that a program continues to function normally through software maintenance and testing.</li>
+                <li>Document every aspect of an application or system as a reference for future maintenance and upgrades.</li>
+            </ol>
+            <delay>1</delay>
+            <link>
+                <text>Click here for more on Software developers.</text>
+                <url>https://www.bls.gov/ooh/computer-and-information-technology/software-developers.htm#tab-1</url>
+            </link>
+            <delay>1</delay>
+            <srai>JOBANDQUIZ</srai>
+        </template>
+    </category>
+    
+    <category>
+        <pattern>dataAdmin</pattern>
+        <template>
+            Database Administrators are responsible for using databases to store, organize, and protect data. 
+            They also plan and develop databases, as well as assuring smooth user access of the database.
+            <image>https://www.bing.com/images/blob?bcid=TrizwgGC0AQE5A</image>
+            <delay>1</delay>
+            <link>
+                <text> Click here for more on Database administrators.</text>
+                <url>https://www.bls.gov/ooh/computer-and-information-technology/database-administrators.htm</url>
+            </link>
+            <delay>1</delay>
+            <srai>JOBANDQUIZ</srai>
+        </template>
+    </category>
+    
+    <category>
+        <pattern>DATAADM</pattern>
+        <template>
+            <delay>2</delay>
+            Database Administrators are responsible for using databases to store, organize, and protect data. 
+            They also plan and develop databases, as well as assuring smooth user access of the database.
+            <delay>1</delay>
+            Database Administrators Duties: 
+            <ol>
+                <li>Identify user needs to create and administer databases.</li>
+                <li>Design and build new databases.</li>
+                <li>Ensure that organizational data are secure.</li>
+                <li>Back up and restore data to prevent data loss.</li>
+                <li>Ensure that databases operate efficiently and without error.</li>
+                <li>Make and test modifications to database structure when needed.</li>
+                <li>Maintain databases and update permissions.</li>
+            </ol>
+            <delay>1</delay>
+            <link>
+                <text>Click here for more on Software developers.</text>
+                   <url>https://www.bls.gov/ooh/computer-and-information-technology/database-administrators.htm</url>
+            </link>
+            <delay>1</delay>
+            <srai>JOBANDQUIZ</srai>
+        </template>
+    </category>
+    
+    <category>
+        <pattern>COMPInfoREsearch</pattern>
+        <template>
+            Computer and information research scientists design innovative uses for new and existing technology. 
+            They study and solve complex problems in computing for business, science, medicine, and other fields.
+            <image>https://www.bing.com/images/blob?bcid=Tl8c4p20lAQELg</image>
+            <delay>1</delay>
+            <link>
+                <text> Click here for more on Web developer.</text>
+                <url>https://www.bls.gov/ooh/computer-and-information-technology/computer-and-information-research-scientists.htm</url>
+            </link>
+            <delay>1</delay>
+            <srai>JOBANDQUIZ</srai>
+        </template>
+    </category>
+    
+    <category>
+        <pattern>COMPInfoRESEARCHSCIENTIST</pattern>
+        <template>
+            <delay>2</delay>Your persoinality trates makes you a great fit for Computer and information research scientists!
+            Computer and information research scientists create and improve computer software and hardware with algorithms: 
+            These scientists simplify complex algorithms to make computer systems as efficient as possible. 
+            The simplified algorithms may lead to advancements in many types of technology, such as machine learning systems and cloud computing.
+            <delay>1</delay>
+            Computer and information research scientists Duties:
+            <ol>
+                <li>Explore problems in computing and develop theories and models to address those problems</li>   
+                <li>Collaborate with scientists and engineers to solve complex computing problems</li>
+                <li>Determine computing needs and system requirements</li>
+                <li>Develop new computing languages, software systems, and other tools to improve how people work with computers</li>
+                <li>Design and conduct experiments to test the operation of software systems, frequently using techniques from data science and machine learning</li>
+                <li>Analyze the results of their experiments</li>
+                <li>Write papers for publication and present research findings at conferences</li>
+            </ol>
+            <link>
+                <text> Click here for more on  Computer and information research scientists.</text>
+                <url>https://www.bls.gov/ooh/computer-and-information-technology/computer-and-information-research-scientists.htm</url>
+            </link>
+            <delay>1</delay>
+            <srai>JOBANDQUIZ</srai>
+        </template>
+    </category>
+    
+     <category>
+        <pattern>webDev</pattern>
+        <template>
+            Web developers create and maintain websites. 
+            They are also responsible for the site’s technical aspects, such as its performance and capacity.
+            Web developers may create content for the site. Digital designers develop, create, and test website or interface layout, functions, and navigation for usability. They are responsible for the look and functionality of the website or interface.
+            <image>https://www.bing.com/images/blob?bcid=Ts.3.REmpgQEuw</image>
+            <link>
+                <text> Click here to learn more about Web developers.</text>
+                <url>https://www.bls.gov/ooh/computer-and-information-technology/web-developers.htm</url>
+            </link>
+            <delay>1</delay>
+            <srai>JOBANDQUIZ</srai>
+        </template>
+    </category>
+    
+    <category>
+        <pattern>webDeveloper</pattern>
+        <template> You shoukd consider becoming a web developer!
+            <br></br> <br></br>
+            Web developers work independently as freelancers or with company teams to create websites. 
+            Depending on the job, these professionals may focus on front-end development, which involves designing sites and producing content, or back-end development, which involves writing code to make website features work. Web developers may also become webmasters for a site, providing maintenance, updates, and troubleshooting when needed.
+            Web developers  Duties:
+            <ol>
+                <li>Meet with clients or management to discuss the needs, design, and functionality of a website or interface</li>
+                <li>Create and test applications, interfaces, and navigation menus for a website</li>
+                <li>Write code for the website, using programming languages such as HTML or XML</li>
+                <li>Work with other team members to determine what information the site will contain</li>
+                <li>Work with graphics and other designers to determine the website’s layout</li>
+                <li>Integrate graphics, audio, and video into the website</li>
+                <li>Monitor website traffic</li>
+                <li>Create prototypes and mockups of websites or applications</li>
+                <li>Design and develop graphics</li>
+            </ol>
+            <link>
+                <text> Click here to learn more about Web developers.</text>
+                <url>https://www.bls.gov/ooh/computer-and-information-technology/web-developers.htm/</url>
+            </link>
+            <delay>1</delay>
+            <srai>JOBANDQUIZ</srai>
+        </template>
+    </category>
+    
+     <category>
+        <pattern>InfoSECU</pattern>
+        <template>
+            Information security analysts plan and carry out security measures to protect an organization’s computer networks and systems.
+            <image>https://www.bing.com/images/blob?bcid=Tq8TWL0mLAQEtg</image>
+            <delay>1</delay>
+            <link>
+                <text> Click here for more on Information Security Analyst.</text>
+                <url>https://www.bls.gov/ooh/computer-and-information-technology/information-security-analysts.htm</url>
+            </link>
+            <delay>1</delay>
+            <srai>JOBANDQUIZ</srai>
+        </template>
+    </category>
+    
+    <category>
+        <pattern>iNFOSECUANALYST</pattern>
+        <template>
+            you might enjoy being an Information security analysts!
+            Information security analysts plan and carry out security measures to protect an organization’s computer networks and systems.
+            <delay>1</delay>
+            Information security analysts Duties:
+            <ol>
+                <li>Monitor their organization’s networks for security breaches and investigate when one occurs</li>
+                <li>Use and maintain software, such as firewalls and data encryption programs, to protect sensitive information</li>
+                <li>Check for vulnerabilities in computer and network systems</li>
+                <li>Research the latest information technology (IT) security trends</li>
+                <li>Prepare reports that document general metrics, attempted attacks, and security breaches</li>
+                <li>Develop security standards and best practices for their organization</li>
+                <li>Recommend security enhancements to management or senior IT staff</li>
+                <li>Help computer users when they need to install or learn about new security products and procedures</li>
+            </ol>
+            <delay>1</delay>
+            <link>
+                <text>Click here for more on info.</text>
+                <url>https://www.bls.gov/ooh/computer-and-information-technology/information-security-analysts.htm</url>
+            </link>
+            <delay>1</delay>
+            <srai>JOBANDQUIZ</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>COMPNET</pattern>
+        <template>
+            Computer network architects design and build data communication networks, including local area networks (LANs), wide area networks (WANs), and Intranets. 
+            Network architects must have extensive knowledge of an organization’s business plan to design a network that can help the organization achieve its goals.
+            <image>https://www.bing.com/images/blob?bcid=TrQVgLc6qwQEPA</image>
+            <delay>1</delay>
+            <link>
+                <text> Click here for more on Computer Network Architects.</text>
+                <url>https://www.bls.gov/ooh/computer-and-information-technology/computer-network-architects.htm</url>
+            </link>
+            <delay>1</delay>
+            <srai>JOBANDQUIZ</srai>
+        </template>
+    </category>
+    
+    <category>
+        <pattern>COMPNETARCH</pattern>
+        <template>
+            <delay>1</delay>You should consider becoming a Computer Network Architect!
+            Computer network architects design and build data communication networks, including local area networks (LANs), wide area networks (WANs), and Intranets. 
+            Network architects must have extensive knowledge of an organization’s business plan to design a network that can help the organization achieve its goals.
+            <delay>1</delay>
+            Computer Network Architect Duties include:
+            <ol>
+                <li>Create plans and layouts for data communication networks.</li>
+                <li> Present plans to management and explain why they are in the organization’s best interest to pursue them.</li>
+                <li>Consider information security when designing networks.</li>
+                <li>Upgrade hardware, such as routers or adaptors, and software, such as network drivers, as needed to support computer networks.</li>
+                <li>Research new networking technologies to determine what would best support their organization in the future. </li>
+            </ol>
+            <delay>1</delay>
+            <link>
+                <text>Click here for more on Computer Network Architect.</text>
+                <url>https://www.bls.gov/ooh/computer-and-information-technology/computer-network-architects.htm</url>
+            </link>
+            <delay>1</delay>
+            <srai>JOBANDQUIZ</srai>
+        </template>
+    </category>
+    
+    <category>
+        <pattern>noToAllQs</pattern>
+        <template>
+            <delay>4</delay>We need a better understanding of your strengths in the computer science industry. 
+             Take a look at the Jobs or retake the quiz to figure out what works for you.
+            <delay>1</delay>
+            <srai>JOBANDQUIZ</srai>
+        </template>
+    </category>
+</aiml>

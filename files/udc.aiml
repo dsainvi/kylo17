@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml>
+     <!--
+    Author: David Sainvilus
+    Date: April 2022
+    "Kylo17" CS Job ChatBot
+    WGU - C951 Task 1
+    dsainvi@wgu.edu
+    -->
+  <category>
+      <pattern>*</pattern>
+      <template> Sorry. I can't answer that.</template>
+      </category>
+  
+  <category>
+      <pattern>hi #</pattern>
+      <template><srai>HELLO</srai></template>
+  </category>
+   
+  <category>
+      <pattern>hey #</pattern>
+      <template><srai>HELLO</srai></template>
+  </category>
+  
+  <category>
+      <pattern>hello #</pattern>
+      <template>
+        Hi My name is Kylo. 
+        I am here to help you identify your strengths, preferences, and help you decide which Computer Science career is the best fit for you.
+        What is your name
+      </template>
+  </category>
+  
+  <category>
+        <pattern>*</pattern>
+        <that> WHAT IS YOUR NAME</that>
+        <template>
+            <think><set name ="name"><star/></set></think>Nice to meet you <get name ="name"/>
+            <delay>1</delay> 
+            Lets get started! 
+            <delay>2</delay>
+            To learn more about our top five jobs select Jobs, or select Quiz to find witch job is the best fit for you?
+            <button>
+                <text>Jobs</text>
+                <postback>jobs</postback>
+            </button>
+            <button>
+                <text>Quiz</text>
+                <postback>quiz</postback>
+            </button>
+        </template>
+  </category>
+  
+  <category>
+      <pattern>My name is ^</pattern>
+      <template>
+        <think><set name ="name"><star/></set></think>Nice to meet you <get name ="name"/>
+        <delay>1</delay> 
+        Lets get started!
+        <delay>1</delay>
+        <srai>JOBANDQUIZ</srai>
+      </template>
+  </category>
+  
+  <category>
+      <pattern>JobAndQuiz</pattern>
+      <template>
+            <delay>1</delay>
+            To learn more about our top five jobs select Jobs, or select Quiz to find witch job is the best fit for you?
+            <button>
+                <text>Jobs</text>
+                <postback>jobs</postback>
+            </button>
+            <button>
+                <text>Quiz</text>
+                <postback>quiz</postback>
+            </button></template>
+  </category>
+</aiml>
+
+    
